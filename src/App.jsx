@@ -1,12 +1,14 @@
-import React from 'react'
-import FetchData from './Components/FetchData'
+import React from 'react';
+import FetchYogaData from './Components/FetchYogaData';
+import FetchData from './Components/FetchData';
 
 function App() {
   return (
- <>
- <FetchData/>
- </>
-  )
+    <>
+      <FetchYogaData />
+      <FetchData />
+    </>
+  );
 }
 
-export default App
+export default App;
